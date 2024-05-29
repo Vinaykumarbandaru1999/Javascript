@@ -1,5 +1,6 @@
 # Javascript
 
+## Functions:
 JavaScript functions can be defined in several ways. Here are the main syntaxes:
 
 ### 1. Function Declaration
