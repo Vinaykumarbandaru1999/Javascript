@@ -3,7 +3,7 @@
 ## Functions:
 JavaScript functions can be defined in several ways. Here are the main syntaxes:
 
-### 1. Function Declaration
+#### 1. Function Declaration
 A function declaration defines a function with the specified parameters.
 
 ```javascript
@@ -23,7 +23,7 @@ function greet(name) {
 greet("Alice");
 ```
 
-### 2. Function Expression
+#### 2. Function Expression
 A function expression defines a function inside an expression, and it can be anonymous or named.
 
 ```javascript
@@ -43,7 +43,7 @@ const greet = function(name) {
 greet("Bob");
 ```
 
-### 3. Arrow Function
+#### 3. Arrow Function
 Arrow functions provide a shorter syntax and lexically bind the `this` value. They are always anonymous.
 
 ```javascript
@@ -71,7 +71,7 @@ const add = (a, b) => a + b;
 console.log(add(2, 3));
 ```
 
-### 4. Immediately Invoked Function Expression (IIFE)
+#### 4. Immediately Invoked Function Expression (IIFE)
 An IIFE is a function that runs as soon as it is defined.
 
 ```javascript
@@ -89,7 +89,7 @@ Example:
 })();
 ```
 
-### 5. Methods in Object Literals
+#### 5. Methods in Object Literals
 Functions can be defined as methods in object literals.
 
 ```javascript
@@ -114,7 +114,7 @@ const person = {
 person.greet();
 ```
 
-### 6. Class Methods
+#### 6. Class Methods
 Functions can be defined as methods inside a class.
 
 ```javascript
